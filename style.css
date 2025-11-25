@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; background: #000; color: #fff; margin:0; padding:20px; }
+.container { max-width: 600px; margin: 0 auto; text-align: center; }
+h1 { font-size: 2.5em; margin-bottom: 0.5em; }
+img { max-width: 100%; border: 3px solid #333; border-radius: 12px; margin: 20px 0; }
+.options button { 
+  font-size: 1.2em; padding: 12px 20px; margin: 8px; border: none; border-radius: 8px; cursor: pointer;
+}
+.options button:hover { opacity: 0.8; }
+#next, #new-poll { margin-top: 30px; padding: 15px 30px; font-size: 1.3em; background:#00d4ff; border:none; border-radius:50px; cursor:pointer; }
+.hidden { display:none; }
+.result-item { margin: 20px 0; font-size:1.3em; }
